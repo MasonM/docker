@@ -235,7 +235,7 @@ By default, Docker containers are "unprivileged" and cannot, for
 example, run a Docker daemon inside a Docker container. This is because
 by default a container is not allowed to access any devices, but a
 "privileged" container is given access to all devices (see [lxc-template.go](
-https://github.com/dotcloud/docker/blob/master/execdriver/lxc/lxc_template.go)
+https://github.com/dotcloud/docker/blob/master/daemon/execdriver/lxc/lxc_template.go)
 and documentation on [cgroups devices](
 https://www.kernel.org/doc/Documentation/cgroups/devices.txt)).
 
